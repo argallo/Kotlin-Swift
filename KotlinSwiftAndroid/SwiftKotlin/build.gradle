@@ -1,0 +1,13 @@
+buildscript {
+    ext.kotlin_native_version = '0.5'
+    dependencies {
+        classpath files('/Users/agallo/Downloads/kotlin-native-gradle-plugin-0.6-dev-590.jar')
+    }
+}
+
+version '0.1'
+apply plugin: "konan"
+konan.targets = ["iphone", "iphone_sim"]
+konanArtifacts {
+    framework('nativeLibs')
+}

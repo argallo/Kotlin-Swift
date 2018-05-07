@@ -1,0 +1,6 @@
+framework module nativeLibs {
+    umbrella header "nativeLibs.h"
+
+    export *
+    module * { export * }
+}

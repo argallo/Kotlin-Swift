@@ -1,0 +1,11 @@
+framework module BrickKit {
+  umbrella header "BrickKit.h"
+
+  export *
+  module * { export * }
+}
+
+module BrickKit.Swift {
+    header "BrickKit-Swift.h"
+    requires objc
+}

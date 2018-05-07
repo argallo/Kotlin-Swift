@@ -1,0 +1,21 @@
+{
+  "iOS" : [
+    {
+      "hash" : "bbe61c719647e21ef0e9bfec6d40d7810cd1fdbfef0daa81365768222e81d04b",
+      "name" : "BrickKit"
+    }
+  ],
+  "commitish" : "2.4.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "cc0e7df1895f370feb16766379cd037a8395ae92fe0810190c1d7e91f5f76e34",
+      "name" : "BrickKit"
+    }
+  ],
+  "Mac" : [
+
+  ]
+}
